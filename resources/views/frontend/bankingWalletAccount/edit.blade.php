@@ -1,0 +1,87 @@
+@extends('frontend.master')
+@section('title') Edit Banking Wallet Accounts @endsection
+@section('styles')
+@endsection
+@section('content')
+
+<div class="h-100 container">
+
+    <form action="{{route('webuser.single-banking-wallet-account-update',$accountData->id)}}" method="post" autocomplete="off" class="needs-validation card" style="margin-bottom: 13px;">
+        @csrf
+        <h4 class="text-center heading_text pb-3">Update Bank Account</h4>
+
+        <div class="form-group custom-form-group">
+        <label class="custom-form-label" for="email">Bank <span class="custom-danger">(requierd)</span></label>
+        <div class="single_input custom-select2-dropdown">
+            <i class="fa-solid fa-piggy-bank"></i>
+            <select autocomplete="off" name="bank_id" id="bank_id" required class="form-control">
+                <option value="" selected disabled>Select Bank</option>
+
+                @foreach($bankData as $bank)
+                @if(isset($bank) && $bank != null)
+                <option value="{{$bank->id}}" {{ $bank->id == $accountData->bank_id ? 'selected' : '' }} >{{$bank->bank_name}}</option>
+                @endif
+                @endforeach
+            </select>
+        </div>
+        </div>
+
+
+        <div class="form-group custom-form-group">
+                <label class="custom-form-label" for="email">Branch <span class="custom-danger">(requierd)</span></label>
+        <div class="single_input ">
+            <i class="fa-solid fa-location-dot"></i>
+            <input name="branch" autocomplete="off" type="text" placeholder="Branch" class="form-control" value="{{$accountData->branch}}" required>
+        </div>
+        </div>
+
+
+        <div class="form-group custom-form-group">
+                <label class="custom-form-label" for="email">Account Type <span class="custom-danger">(requierd)</span></label>
+        <div class="single_input custom-select2-dropdown">
+            <i class="fa-solid fa-coins"></i>
+            <select autocomplete="off" name="bank_account_type" id="bank_account_type" required class="form-control">
+                <option value="" selected disabled>Select Account Type</option>
+                <option value="Savings" {{ $accountData->bank_account_type == 'Savings' ? 'selected' : '' }} >Savings</option>
+                <option value="Current" {{ $accountData->bank_account_type == 'Current' ? 'selected' : '' }}>Current</option>
+            </select>
+        </div>
+        </div>
+
+
+        <div class="form-group custom-form-group">
+                <label class="custom-form-label" for="email">Account Number <span class="custom-danger">(requierd)</span></label>
+        <div class="single_input ">
+            <i class="fa-solid fa-credit-card"></i>
+            <input name="account_number" autocomplete="off" type="number" placeholder="Account Number" class="form-control" value="{{$accountData->account_number}}" required>
+        </div>
+        </div>
+
+
+        <div class="form-group custom-form-group">
+                <label class="custom-form-label" for="email">Current Balance <span class="custom-danger">(requierd)</span></label>
+        <div class="single_input ">
+            <i class="fa-solid fa-bangladeshi-taka-sign"></i>
+            <input name="current_balance" autocomplete="off" type="number" placeholder="Current Balance" class="form-control" 
+            value="{{$accountData->current_balance}}">
+        </div>
+        </div>
+
+
+        <div class="condition mt-3">
+            <button type="submit" class="primary_btn mb-0">Update Account</button>
+        </div>
+    </form>
+
+</div>
+
+@endsection
+
+@section('scripts')
+<script>
+    $(document).ready(function() {
+        $('#bank_id').select2();
+        $('#bank_account_type').select2();
+    });
+</script>
+@endsection()

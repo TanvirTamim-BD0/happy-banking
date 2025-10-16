@@ -1,0 +1,182 @@
+    /* For Custom Notification Of Toastr Design... */
+    #toast-container{
+        display: block !important;
+        z-index: 99999999 !important;
+    }
+
+    #toast-container .toast-success {
+        background-color: #490d86 !important;
+    }
+
+    #toast-container .toast-error {
+        background-color: #ff0000 !important;
+    }
+
+    #toast-container .toast-progress {
+        background-color: #ffffff !important;
+        opacity: 1 !important;
+    }
+
+    #toast-container .toast-success .toast-title {
+        color: #ffffff !important;
+    }
+
+    #toast-container .toast-success .toast-message {
+        color: #ffffff !important;
+    }
+    
+    #toast-container .toast-error .toast-title {
+        color: #ffffff !important;
+    }
+
+    #toast-container .toast-error .toast-message {
+        color: #ffffff !important;
+    }
+
+    /* For Custom Notification Of Toastr Design End... */
+
+    .custom-small-button {
+        padding: 3px 7px;
+        font-size: 13px;
+    }
+
+    .custom-active-inactive-btn {
+        margin-top: 13px;
+    }
+
+    /* Select2 dropdown start... */
+    .custom-select2-dropdown .select2-container{
+        width: 100% !important;
+    }
+   
+    .custom-select2-dropdown .select2-container .select2-selection--single{
+        height: 38px !important;
+    }
+   
+    .custom-select2-dropdown .select2-container--default .select2-selection--single .select2-selection__rendered{
+        line-height: 23px !important;
+    }
+    
+    .custom-select2-dropdown .select2-container .select2-selection--single .select2-selection__rendered{
+        padding-left: 0px !important;
+    }
+   
+    .custom-select2-dropdown .select2-container--default .select2-selection--single .select2-selection__arrow b{
+        margin-top: 0px !important;
+    }
+   
+    .custom-select2-dropdown .select2-container:focus-visible{
+        outline: none !important;
+    }
+    
+    .custom-select2-dropdown .select2-container .selection:focus-visible{
+        outline: none !important;
+    }
+
+    .custom-select2-dropdown .select2-container .select2-selection--single{
+        outline: none !important;
+    }
+    
+    .custom-select2-dropdown .select2-container .select2-selection--single:focus-visible{
+        outline: none !important;
+    }
+
+    .custom-select2-dropdown .select2-container--default .select2-selection--single{
+        border: 1px solid #ced4da !important;
+        padding: .375rem .75rem !important;
+        border-radius: 0.375rem !important;
+    }
+
+    /* Select2 dropdown end... */
+
+    .custom-required-font {
+        font-size: 11px;
+        margin-top: -5px;
+    }
+
+    .passShowForm i {
+        position: absolute;
+        right: 5px;
+        top: 80%;
+        transform: translateY(-50%);
+        padding: 1px 0;
+        height: 20px;
+        width: 20px;
+    }
+
+    .passShowForm i:before {
+        margin-left: 4px;
+    }
+
+    .custom-datatable-image {
+        height: 60px;
+        width: 80px;
+    }
+
+    .custom-card-content-for-datatable {
+        display: flex;
+    }
+
+    .custom-datatable-add-btn i {
+        color: #ffffff;
+    }
+    
+    .custom-datatable-add-btn {
+        color: #ffffff;
+        background: linear-gradient(45deg, #a10dfd, #004edd) !important;
+        padding: 5px 10px;
+        position: absolute;
+        right: 15px;
+        font-weight: 600;
+        box-shadow: 2px 2px 2px #490d866b;
+    }
+    
+    .custom-datatable-add-btn:hover {
+        color: #ffffff;
+    }
+
+    .breadcump-text {
+        color: #00000094 !important;
+        font-weight: 700;
+    }
+   
+    .breadcump-active {
+        color: #36330e85;
+        font-weight: 700;
+    }
+
+    .breadcump-header {
+        margin-left: 7px;
+    }
+   
+    .custom-card-content-for-datatable h2{
+        font-size: 22px;
+    }
+
+    .submenu-active {
+        display: block;
+    }
+
+    .custom-publish-button-icon {
+        position: absolute;
+        right: 20px;
+        margin-top: 0px;
+        background: transparent;
+    }
+
+    table thead th, tfoot th{
+        font-size: 14px;
+    }
+
+    .custom-user-activity-filter-btn {
+        max-width: 120px;
+        margin-top: 30px;
+    }
+
+    .custom-user-activity-form label{
+        font-size: 16px;
+    }
+
+    .custom-frontend-note-publish-card {
+        margin-top: 32px;
+    }

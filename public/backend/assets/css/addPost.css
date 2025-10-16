@@ -1,0 +1,51 @@
+.select-btn {
+    padding: 5px 10px;
+}
+.select-btn span,.select-btn i,.search input {
+    font-size: 12px;
+}
+.title p{
+    margin: 2px 0;
+}
+.card-body{
+    padding: 0 10px;
+}
+.options li{
+    font-size: 12px;
+    margin-bottom: 5px;
+    height:auto;
+    padding: 5px 10px ;
+    text-transform: capitalize;
+}
+.categories_btn button{
+    font-size: 12px;
+    margin-right: 10px;
+    padding: 5px;
+    color: #0000ee;
+}
+.categories_btn button.active{
+    border: 1px solid #eee;
+    position: relative;
+    top: 1px;
+    background: #fff;
+    border-bottom: 1px solid #fff;
+    color: #50575e;
+}
+.categories_select ul{
+    display: block;
+}
+.categories_select > ul{
+    display: block;
+    border: 1px solid #eee;
+    padding: 5px;
+}
+.card button.add_tag{
+    border: 1px solid #2271b1;
+    background-color: #f6f7f7;
+}
+#featuredImg{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}

@@ -1,0 +1,447 @@
+/* Select2 dropdown start... */
+    .custom-select2-dropdown .select2-container{
+        width: 100% !important;
+    }
+   
+    .custom-select2-dropdown .select2-container .select2-selection--single{
+        height: 38px !important;
+    }
+   
+    .custom-select2-dropdown .select2-container--default .select2-selection--single .select2-selection__rendered{
+        line-height: 23px !important;
+    }
+    
+    .custom-select2-dropdown .select2-container .select2-selection--single .select2-selection__rendered{
+        padding-left: 0px !important;
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__arrow{
+        height: 20px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 6px;
+    }
+    .select2-container .select2-selection--single .select2-selection__rendered{
+        padding-right: 0px;
+    }
+   
+    .custom-select2-dropdown .select2-container--default .select2-selection--single .select2-selection__arrow b{
+        margin-top: 5px;
+        margin-left: -15px;
+    }
+   
+    .custom-select2-dropdown .select2-container:focus-visible{
+        outline: none !important;
+    }
+    
+    .custom-select2-dropdown .select2-container .selection:focus-visible{
+        outline: none !important;
+    }
+
+    .custom-select2-dropdown .select2-container .select2-selection--single{
+        outline: none !important;
+    }
+    
+    .custom-select2-dropdown .select2-container .select2-selection--single:focus-visible{
+        outline: none !important;
+    }
+
+    .custom-select2-dropdown .select2-container--default .select2-selection--single{
+        border: 1px solid #ced4da00 !important;
+        padding: .375rem .75rem !important;
+        border-radius: 0.375rem !important;
+    }
+
+    .select2-container--default .select2-search--dropdown .select2-search__field:focus-visible{
+        outline: none !important;
+    }
+
+    .single_input select,
+    span.select2.select2-container.select2-container--default{
+        width: 100%;
+        outline: none;
+        border: 1.5px solid #ececec;
+        padding: 0px;
+        border-radius: 5px;
+        padding-left: 30px;
+    }
+    
+    .single_input select,
+    span.select2.select2-container.select2-container--default.select2-container--focus{
+        width: 100%;
+        outline: none;
+        border: 1.5px solid #ececec;
+        padding: 0px;
+        border-radius: 5px;
+        padding-left: 30px;
+    }
+    /* Select2 dropdown end... */
+
+    .custom-transfer-acccount-tab {
+        display: flex;
+        flex-wrap: inherit;
+    }
+    
+    .custom-transfer-acccount-tab .active{
+        color: #ffffff !important;
+    }
+
+    .custom-transfer-type button {
+        padding: 7px 15px !important;
+        margin: 5px 0px !important;
+    }
+
+    .custom-transfer-type-icon {
+        float: right;
+        margin-top: 3px;
+    }
+
+    .custom-home-image {
+        margin-top: 2px;
+    }
+
+    .custom-credit-debit-date-time {
+        margin-top: 0px;
+    }
+
+    .custom-banking-pagination nav{
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .custom-banking-pagination nav div{
+        padding-bottom: 15px;
+    }
+   
+    .custom-banking-pagination nav div p{
+        font-size: 13px;
+    }
+    
+    .custom-banking-pagination .relative.z-0.inline-flex.shadow-sm.rounded-md{
+        display: none;
+    }
+
+    .edit-footer-card .custom-service-active-btn{
+        background-color: #1053cfc5;
+    }
+    
+    .edit-footer-card .custom-service-inactive-btn{
+        background-color: #cc091cb7;
+    }
+    
+    .custom-transfer-acccount-tab .primary_btn{
+        background-color: #adadad;
+    }
+    
+    .custom-transfer-acccount-tab .primary_btn.active{
+        background-color: #f7961d;
+    }
+
+    .custom-text-danger-position{
+        position: absolute;
+        left: 0px;
+        bottom: -21px;
+        color: #e40d0d;
+        font-size: 14px;
+    }
+
+    .logo-image{
+        width: 180px !important;
+        margin-top: -3px;
+    }
+
+    .custom-form-label {
+        color: #464646;
+        /* font-weight: 700; */
+    }
+
+    .custom-form-group {
+        margin-bottom: 10px;
+    }
+    
+    .custom-form-group .custom-danger {
+        color: #e11b1b;
+        margin-top: 0px;
+        position: absolute;
+        margin-left: 5px;
+    }
+   
+    .custom-form-group .single_input {
+        margin-top: 0px;
+    }
+
+    .custom-dropdown-menu {
+        margin-top: 10px !important;
+        margin-left: 3px !important;
+        min-width: 220px !important;
+    }
+ 
+    .custom-dropdown-menu .dropdown-item.active,
+    .dropdown-item:active {
+        color: #1e2125;
+        background-color: #e9ecef;
+    }
+
+    .custom-notification-number {
+        position: absolute;
+        margin-left: -10px;
+        background: cornflowerblue;
+        margin-top: -6px;
+        padding: 0px;
+        height: 18px;
+        width: 18px;
+        font-size: 14px;
+    }
+
+    .custom-home-title {
+        /* font-weight: 600; */
+        color: #6c757d;
+    }
+
+    .custom-transfer-to-block {
+        padding-left: 10px;
+    }
+
+    .custom-main-container {
+        position: relative;
+    }
+
+    .custom-notification-icon {
+        position: absolute;
+        margin-top: 6px;
+        margin-left: -6px;
+    }
+    
+    .custom-home-icon {
+        position: absolute;
+        margin-top: -10px;
+        margin-left: 0px;
+    }
+    
+    .custom-main-container .back-to-top {
+        position: sticky;
+        margin-left: 290px;
+        top: auto;
+        bottom: 85px;
+    }
+
+    .custom-main-container .custom-back-to-top {
+        position: absolute;
+        margin-left: 290px;
+        top: auto;
+        bottom: 20px;
+    }
+
+    .custom-card-disabled-color {
+        color: #878787;
+        background-color: #1e21251a;
+        padding: 1px 3px;
+        border-radius: 1px;
+    }
+
+    .custom-danger-btn {
+        background-color: #e40d0dad;
+    }
+
+    .custom-dashboard-icon {
+        font-size: 25px;
+        margin-top: 6px;
+    }
+
+    .primary_btn{
+        margin: 0px 0px !important;
+    }
+    
+    .custom-pocket-card-icon {
+        color: #F7961D;
+        font-size: 40px;
+        margin-top: 0px;
+    }
+
+    .custom-invoice-bold {
+        color: #00000096;
+    }
+    .card.transaction p,
+    .card.transaction h6 {
+        margin-bottom: -17px;
+    }
+    
+    .custom-transfer-to-block .custom-transfer-type .border-bottom {
+        border-bottom: 1px solid #6f6f6fde !important;
+    }
+    
+    .custom-transfer-to-block .custom-transfer-type button {
+        margin: 7px 0px;
+    }
+
+    .custom-invoice-root-bank {
+        font-size: 13px;
+        display: block;
+        color: #f38600;
+        font-weight: 600;
+    }
+
+    .custom-notes-of-invoice {
+        max-width: 140px;
+    }
+
+    .custom-empty-data-container {
+        padding-top: 200px;
+    }
+
+    .back-to-top .icon{
+        width: 50px;
+        height: 50px;
+    }
+
+    .back-to-top .icon i{
+        padding-top: 16px;
+        font-size: 20px;
+    }
+
+    .custom-transaction-details-block {
+        padding-bottom: 30px !important;
+        margin-top: 10px !important;
+    }
+
+    .custom-readonly-color {
+        background-color: #0000000a;
+    }
+
+    .custom-outline-none:focus {
+        outline: none !important;
+    }
+    
+    .custom-box-shadow-none:focus {
+        box-shadow: none !important;
+    }
+
+    .custom-headernotification-icon-left i{
+        margin-top: 2px;
+    }
+
+    .credit-card-service-footer a{
+        margin: 15px 5px 0px 5px !important;
+    }
+
+    .custom-common-submit-button {
+        margin-top: 15px !important;
+    }
+
+    .custom-list-right-side {
+        max-width: 210px;
+    }
+
+    .custom-trans-bottom-block {
+        margin-left: -9px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (max-width: 768.98px){
+        .custom-main-container .back-to-top {
+            position: fixed;
+            margin-left: 290px;
+            top: auto;
+            bottom: 85px;
+        }
+    }
+   
+    @media (max-width: 667.98px){
+        .custom-main-container .back-to-top {
+            margin-left: 75%;
+            top: auto;
+            bottom: 85px;
+        }
+    }
+    
+    @media (max-width: 575.98px){
+        .custom-main-container .back-to-top {
+            margin-left: 84%;
+        }
+    }
+   
+    @media (max-width: 425.98px){
+        .custom-main-container .back-to-top {
+            margin-left: 81%;
+        }
+    }
+   
+    
+    @media (max-width: 375.98px){
+        .custom-main-container .back-to-top {
+            margin-left: 80%;
+        }
+    }
+   
+    @media (max-width: 320px){
+        .custom-main-container .back-to-top {
+            margin-left: 78%;
+        }
+    }
+
+
+/* documentation blade.php page's css  */
+.documentation a .card-text{
+    color: rgb(69, 109, 69);
+}
+
+#accordionExample button{
+    font-size:14px;
+}
+#accordionExample p{
+    font-size:13px;
+}
+
+.accordion-button::after {
+    width: 0.75rem;
+    height: 0.75rem;
+}
+
+.accordion-button::after {
+    background-size: 0.75rem;
+}
+
+
+
+
+#notificationCountNumber .dashboard_notification{
+    top: -9px;
+    right: -7px;
+}
+
+#notification-unorder-list li:hover{
+    background-color: rgba(255, 166, 0, 0.278);
+}
+
+/* Password show added in frontend login page  */
+.frontend-password-eye-icon{
+    right: 5px;
+    background: none!important;
+}
+.frontend-password-eye-icon.password-show{
+    visibility: hidden;
+}
+
+/* Password show added in frontend Registration page  */

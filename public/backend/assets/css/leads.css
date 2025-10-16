@@ -1,0 +1,132 @@
+body{
+    font-family: Inter,Helvetica,sans-serif;
+}
+.leads,.table_data{
+    background-color:#fff;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.leads_profile img{
+    height:180px;
+    margin-bottom: 15px;
+    width:100%
+}
+.leads_profile img{
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+.leads_profile a{
+    font-size: 1.25rem;
+    color: #3F4254;
+    transition: .3s;
+    display: block;
+    font-weight: bold;
+}
+.leads_profile a:hover{
+    color:#009EF7;
+}
+.leads_profile p{
+    background-color:#E8FFF3;
+    color: #50CD89;
+    padding: 4px;
+    font-weight: bold;
+}
+.amount .tk{
+    font-size: 16px;
+}
+.separator {
+    display: block;
+    height: 0;
+    border-bottom: 1px solid #eff2f5;
+}
+.fs-6 div{
+    font-size:.9rem!important;
+}
+.btn-group-sm>.btn:not(.btn-outline):not(.btn-dashed):not(.border-hover):not(.border-active):not(.btn-flush):not(.btn-icon), .btn:not(.btn-outline):not(.btn-dashed):not(.border-hover):not(.border-active):not(.btn-flush):not(.btn-icon).btn-sm {
+    padding: 7px;
+}
+.card .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 70px;
+    /* padding: 0 2.25rem; */
+    color: var(--kt-card-cap-color);
+    background-color: transparent;
+    border-bottom: 1px solid #eff2f5;
+}
+.card-title{
+    font-weight: 500;
+    font-size: 1.275rem;
+}
+.card h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    outline: none;
+    color: #181C32;
+}
+
+.card .card-header .card-toolbar {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+    flex-wrap: wrap;
+}
+.card .card-header .card-toolbar a {
+    background-color: #F1FAFF;
+    color:#009EF7
+}
+.mw-850px {
+    max-width: 850px!important;
+}
+@media (max-width:425px) {
+    .card h2{
+        font-size: 1rem;
+    }
+}
+.modal_head{
+    font-size: 1.25rem;
+    color: #3F4254;
+    transition: .3s;
+    display: block;
+    font-weight: bold;
+}
+.nav-custom{
+    margin-bottom: 15px;
+    background-color: #fff;
+    padding: 5px;
+    /* border-radius: 5px; */
+    border: 1px solid #c3c4c7;
+}
+.nav-custom li {
+    margin-right: 3px;
+    padding: 7px 13px;
+    border-radius: 5px;
+}
+.nav-custom li.active {
+    background: #E1E3EA;
+    border-radius: 5px;
+}
+.nav-custom li.active a{
+    color: #009EF7;
+}
+.nav-custom li a{
+    font-size: 16px;
+    color: #B0A2AD;
+    display: block;
+    padding: 0;
+    font-weight: 500;
+    border: none !important;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+    border: none;
+}
+.card-toolbar .table_button{
+    padding: 8px 13px;
+    border: 1px solid ;
+    background-color: #f6f7f7;
+}
+.mw-750px {
+    max-width: 750px!important;
+}

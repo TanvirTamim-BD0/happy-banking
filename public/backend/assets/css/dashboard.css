@@ -1,0 +1,77 @@
+
+.card h5{
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.4;
+}
+.card button.border-0{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 18px;
+}
+.card-header{
+    cursor: pointer;
+}
+.card-body ul{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.card-body ul li{
+    display:inline-block;
+    width: 50%;
+    font-size: 14px;
+}
+.card .dropdown-menu{
+    display :none;
+}
+ul.dropdown-menu.show{
+    display: block;
+}
+.card .dropdown-menu.show li{
+    width: auto;
+    display:block
+}
+.single_input{
+    margin-bottom: 10px;
+}
+.single_input:last-child{
+    margin-bottom: 0;
+}
+.single_input label,.single_input input{
+    display:block;
+    margin-bottom: 5px;
+}
+.single_input input,.single_input textarea{
+    width: 100%;
+    padding: 0 8px;
+    line-height: 2;
+    min-height: 30px;
+    box-shadow: 0 0 0 transparent;
+    border-radius: 4px;
+    border: 1px solid #8c8f94;
+    background-color: #fff;
+    color: #2c3338;
+}
+.single_input textarea{
+    min-height: 90px;
+    max-height: 1300px;
+    margin: 0 0 8px;
+    padding: 6px 7px;
+    resize: none;
+    overflow: hidden auto;
+    height: 34px;
+    margin-bottom: 0;
+}
+.card button.save_draft_btn{
+    background-color: #135e96;
+    padding: 7px 11px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.card .card-footer{
+    background-color:#fff;
+    font-size: 14px;
+}

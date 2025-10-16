@@ -1,0 +1,87 @@
+.search_wrapper,.search_wrapper_2{
+    margin-bottom: 10px;
+    position: relative;
+}
+.select-btn, .options li{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+.select-btn{
+    /* height: 65px; */
+    background: #fff;
+    border-radius: 7px;
+    padding: 14px;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+}
+.select-btn span{
+    font-size: 18px;
+}
+.select-btn i{
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+.search_wrapper.active .select-btn i,.search_wrapper_2.active .select-btn i{
+    transform: rotate(-180deg);
+}
+.select_content{
+    display: none;
+    margin-top: 15px;
+    padding: 0px;
+    border-radius: 7px;
+    background: #fff;
+}
+.search_wrapper.active .select_content, .search_wrapper_2.active .select_content{
+    display: block;
+    position: absolute;
+    z-index: 10;
+    /* background: red; */
+    top: 50px;
+    width: 100%;
+    padding: 10px;
+}
+.select_content .search{
+    position: relative;
+}
+.search i{
+    position: absolute;
+    left: 15px;
+    line-height: 53px;
+}
+.search input{
+    width: 100%;
+    font-size: 17px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.options{
+    margin-top: 10px;
+    max-height: 250px;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+.options::-webkit-scrollbar{
+    width: 10px;
+}
+.options::-webkit-scrollbar-track{
+    background: #f1f1f1;
+    border-radius: 25px;
+}
+.options::-webkit-scrollbar-thumb{
+    background: #ccc;
+    border-radius: 25px;
+}
+.options li{
+    height:30px;
+    padding: 5px 13px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.options li:hover{
+    background: #f2f2f2;
+}

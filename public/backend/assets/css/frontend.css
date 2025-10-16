@@ -1,0 +1,120 @@
+body{
+    padding-bottom: 0;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    float: none;
+}
+.modal-backdrop{
+    z-index:1000;
+}
+.search_wrapper.active .select_content, .search_wrapper_2.active .select_content{
+    background-color: blanchedalmond;
+}
+.featured .title{
+    text-align: center
+}
+.title h2{
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 5px;
+}
+.card-items-wrap img{
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+.card-item:hover p {
+    color: #ef4a23;
+}
+.p-item-inner {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+.marks {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.marks .mark {
+    background: #6e2594;
+    width: auto;
+    color: #fff;
+    font-size: 12px;
+    padding: 3px 10px;
+    line-height: 14px;
+    margin-bottom: 2px;
+    border-radius: 0 20px 20px 0;
+    flex: 0 0 auto;
+}
+.p-item-img {
+    text-align: center;
+    border-bottom: 3px solid rgba(55,73,187,.03);
+    flex: 0 0 220px;
+    padding: 20px;
+    margin: 0;
+}
+.p-item-img img {
+    max-width: 100%;
+}
+.p-item-details {
+    padding: 15px;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+.common-home .p-item-name {
+    font-weight: 400;
+    font-size: 15px;
+}
+.p-item-name {
+    margin: 0 0 15px;
+    line-height: 20px;
+    overflow: hidden;
+    font-weight: 600;
+    font-size: 14px;
+    position: relative;
+    height: auto;
+}
+.p-item-price {
+    line-height: 22px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #ef4a23;
+}
+.m-home.seo-content {
+    padding-bottom: 50px;
+}
+.m-home {
+    padding-top: 50px;
+}
+.m-home h1 {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 0 0 20px;
+}
+.m-home p {
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #01132d;
+    line-height: 26px;
+}
+.m-home.seo-content h2 {
+    font-weight: normal;
+    font-size: 18px;
+    margin: 25px 0 12px;
+}
+.m-home.seo-content a{
+    color: #ef4a23;
+}

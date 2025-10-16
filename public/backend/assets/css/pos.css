@@ -1,0 +1,63 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+tr.border-bottom.fs-6.fw-bold.text-muted th{
+    color: #6c757d;
+}
+.border-bottom{
+    border-bottom: 2px solid #F4F4F4!important;
+}
+.fs-5 {
+    font-size: 1.15rem !important;
+}
+.text-dark {
+    color: #4e5162!important;
+}
+.input_background input,
+.input_background textarea{
+    background-color: #F4F4F4;
+    color: #5E6278;
+    border: 1px solid #F4F4F4;
+    width: 100%;
+    border-radius: 5px;
+    padding: 7px;
+}
+.btn.btn-link {
+    border: 0;
+    border-radius: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-decoration: none;
+    font-weight: 500;
+}
+.border-bottom-transparent table{
+    border-bottom:1px solid transparent ;
+}
+.options li,.select-btn span{
+    font-size: 16px;
+}
+.form-switch label{
+    font-size: 16px;
+    display: block;
+}
+.form-switch input{
+    display: block;
+}
+.form-switch {
+    display: flex;
+    justify-content:space-between
+}
+.btn:not(.btn-outline):not(.btn-dashed):not(.border-hover):not(.border-active):not(.btn-flush):not(.btn-icon) {
+    border: 0;
+    padding: calc(0.775rem + 1px) calc(1.5rem + 1px);
+}
+.btn-check:checked + .btn.btn-active-light-primary, .btn-check:active + .btn.btn-active-light-primary, .btn.btn-active-light-primary:focus:not(.btn-active), .btn.btn-active-light-primary:hover:not(.btn-active), .btn.btn-active-light-primary:active:not(.btn-active), .btn.btn-active-light-primary.active, .btn.btn-active-light-primary.show, .show > .btn.btn-active-light-primary {
+    color: #009ef7;
+    border-color: #f1faff;
+    background-color: #f1faff!important;
+}
+.submit_btn{
+    color: #ffffff !important;
+    border-color: #009ef7 !important;
+    background-color: #009ef7 !important;
+}

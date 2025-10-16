@@ -1,0 +1,252 @@
+h1, h2, h3,h4,h5,h6,p,span{
+    color: #1d2327;
+    margin-bottom: 0;
+}
+h1{
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0;
+    padding: 9px 0 4px;
+    line-height: 1.3;
+}
+ul{
+    padding: 0;
+    margin-bottom: 0;
+}
+ul li {
+    list-style: none;
+  }
+input{
+    padding: 0 8px;
+    line-height: 2;
+    min-height: 30px;
+}
+input, textarea {
+    font-size: 14px;
+}
+input, textarea, select, button{
+    outline: none;
+}
+.table_button{
+    height: fit-content;
+    margin-left: 6px;
+    padding: 4px 8px;
+    position: relative;
+    /* top: -3px; */
+    text-decoration: none;
+    border: 1px solid #2271b1;
+    border-radius: 2px;
+    text-shadow: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: normal;
+    color: #2271b1;
+    background: #f6f7f7;
+    cursor: pointer;
+}
+ a {
+    line-height: 2;
+    padding: 0.2em;
+    text-decoration: none;
+}
+select {
+    font-size: 14px;
+    line-height: 2;
+    color: #2c3338;
+    border-color: #8c8f94;
+    box-shadow: none;
+    border-radius: 3px;
+    padding: 0 24px 0 8px;
+    min-height: 30px;
+    max-width: 25rem;
+    appearance: none;
+    background: #fff url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E) no-repeat right 5px top 55%;
+    background-size: 16px 16px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+input[type=checkbox], input[type=radio] {
+    border: 1px solid #8c8f94;
+    border-radius: 4px;
+    background: #fff;
+    color: #50575e;
+    clear: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    /* height: 1rem; */
+    /* margin: -0.25rem 0.25rem 0 0; */
+    outline: 0;
+    padding: 0!important;
+    text-align: center;
+    vertical-align: middle;
+    /* width: 1rem; */
+    /* min-width: 1rem; */
+    /* -webkit-appearance: none; */
+    /* box-shadow: inset 0 1px 2px rgba(0,0,0,.1); */
+    transition: .05s border-color ease-in-out;
+}
+.hide_scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+.hide_scrollbar{
+    overflow-x: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+.w-140{
+    width: 140px;
+}
+.text-gray-700 {
+    color: #5E6278;
+}
+.flex-stack {
+    justify-content: space-between;
+    align-items: center;
+}
+.fs-4 {
+    font-size: 1.5rem!important;
+}
+.fw-bold {
+    font-weight: 600!important;
+}
+.text-gray-600 {
+    color: #7E8299;
+}
+.fs-6 {
+    font-size: 1.075rem!important;
+}
+.svg-icon, .btn.btn-light-primary i {
+    color: #009EF7;
+}
+.btn .svg-icon {
+    flex-shrink: 0;
+    line-height: 0;
+    margin-right: 0.5rem;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.fw-semibold {
+    font-weight: 500 !important;
+}
+.fs-7 {
+    font-size: 0.95rem !important;
+}
+.text-gray-800{
+    color: #3F4254;
+}
+.mb-12 {
+    margin-bottom: 3rem !important;
+}
+.bg-danger{
+    color:#f1416c
+}
+.bullet {
+    display: inline-block;
+    background-color: var(--bs-bullet-bg-color);
+    border-radius: 6px;
+    width: 8px;
+    height: 4px;
+    flex-shrink: 0;
+}
+.bullet-dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 100% !important;
+}
+.mb-9 {
+    margin-bottom: 2.25rem !important;
+}
+.badge-light-success {
+    color: #50cd89;
+    background-color: #e8fff3;
+}
+.badge-light-warning {
+    color: #ffc700;
+    background-color:#fff8dd;
+}
+.p-9 {
+    padding: 2.25rem !important;
+}
+.border-dashed {
+    border-style: dashed !important;
+}
+.border-gray-300 {
+    border-color: #E1E3EA!important;
+}
+.card-rounded {
+    border-radius: 0.625rem;
+}
+.mb-8 {
+    margin-bottom: 2rem !important;
+}
+.mb-6 {
+    margin-bottom: 1.5rem !important;
+}
+.my-6 {
+    margin: 1.5rem 0 !important;
+}
+.mb-15 {
+    margin-bottom: 3.75rem !important;
+}
+
+.dropdown.show > .form-control.form-control-transparent, .form-control.form-control-transparent:active, .form-control.form-control-transparent.active, .form-control.form-control-transparent:focus, .form-control.form-control-transparent.focus {
+    background-color: transparent;
+    border-color: transparent;
+}
+.form-control-transparent,.form-control-flush{
+    background: transparent;
+    border: none;
+}
+.w-125px {
+    width: 125px !important;
+}
+.btn-link{
+    color:#181C32
+}
+.btn-link:hover {
+    color: #0095e8;
+}
+.pt-8 {
+    padding-top: 1.45rem !important;
+}
+.carousel-item,.carousel-inner,#carouselExampleCaptions, .carousel-item img{
+    height: 100%;
+}
+.card-item {
+    flex: 0 0 12.33%;
+    padding: 0 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.card-items-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+    justify-content: center;
+}
+.card-item p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.p-item-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+    padding: 0;
+    justify-content: flex-start;
+}
+
+.p-item {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 0 5px 10px;
+    margin-bottom: 0;
+    display: flex;
+    position: relative;
+}
+.bg-hover:hover{
+    background-color: #ddd;
+}
